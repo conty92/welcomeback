@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    background-color: black;
+    font-size: 18px;
+    
+}
+.first-container{
+    display: flex;
+    width: 100vw;
+    height: 50vw;
+    background-color: mistyrose;
+    margin-top: 40px;
+}
+.second-container{
+    background-color: white;
+    margin-inline: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.data{
+    padding: 10rem;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.data > ul{
+    position: relative;
+    right: 7rem;
+    bottom: 8rem;
+}
+footer{
+    position: relative;
+    right: 7.5rem;
+    top: 18rem;
+}
+h1{
+    position: relative;
+    bottom: 40px;
+}
+input{
+    width: 300px;
+    height: 20px;
+}
+label{
+    position: relative;
+    bottom: 10px;
+}
+p{
+    position: relative;
+    top: 20px;
+    margin-left: 190px;
+}

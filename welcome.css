@@ -1,0 +1,74 @@
+
+*{
+        margin: 0;
+        padding: 0;
+}
+body{
+        background-color: black;
+        display: flex;
+}
+.first-container{
+        display: flex;
+        width: 100vw;
+        height: 50vw;
+        background-color: mistyrose;
+        margin-top: 40px;
+}
+.second-container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90vw;
+        height: 45vw;
+        background-color: white;
+        margin-top: 35px;
+        margin-inline: auto;
+}
+
+
+.data{
+        display: grid;
+        padding: 6rem;
+}
+ul{
+        position: relative;
+        right: 4rem;
+        bottom: 4rem;
+}
+
+.data > input{
+        padding: 0.6rem;
+}
+.down{
+        margin-top: 20px;
+        text-align: center;
+}
+.forgot{
+        display: flex;
+        justify-content:space-between ;       
+}
+.sign{
+        background-color: blueviolet;
+        height: 2rem;
+        color: white;
+}
+.google{
+        text-align: center;
+}
+footer{
+        position: relative;
+        right: 4rem;
+        top: 4rem;
+}
+.logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: aliceblue;
+        padding: 6rem;
+}
+.logo img{
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+}
+
